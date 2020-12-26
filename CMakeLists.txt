@@ -7,7 +7,7 @@ include(ExternalProject)
 # flex
 rez_set_archive(
     FLEX_URL flex/flex-${REZ_BUILD_PROJECT_VERSION}.tar.gz
-    https://ftp.gnu.org/westes/flex/archive/v${REZ_BUILD_PROJECT_VERSION}.tar.gz
+    https://github.com/westes/flex/releases/download/v${REZ_BUILD_PROJECT_VERSION}/flex-${REZ_BUILD_PROJECT_VERSION}.tar.gz
 )
 
 # The environment variable REZ_TMP_PATH is meant to point to a location such as "/tmp/rez".
